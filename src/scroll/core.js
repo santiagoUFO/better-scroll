@@ -60,7 +60,7 @@ export function coreMixin(BScroll) {
 
     this.trigger('beforeScrollStart')
   }
-
+    console.log('222');
   BScroll.prototype._move = function (e) {
     if (!this.enabled || this.destroyed || eventType[e.type] !== this.initiated) {
       return
