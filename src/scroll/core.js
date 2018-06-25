@@ -46,7 +46,7 @@ export function coreMixin(BScroll) {
     if (this.options.wheel) {
       this.target = e.target
     }
-
+    console.log('11111');
     this.stop()
 
     let point = e.touches ? e.touches[0] : e
